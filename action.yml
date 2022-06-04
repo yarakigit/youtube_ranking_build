@@ -9,19 +9,28 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - shell: bash
-      id: setup
-      run: |
-        sudo apt update
-        sudo apt install -y python3
-        sudo apt upgrade
-        sudo python3 -m pip install --upgrade requests
-        
-    - shell: bash
-      id: automation
-      run: |
-        python --version
-        cd ${{ github.action_path }}
-        sudo python3 -m pip install -r requirements.txt
-        python3 rank.py ${{ inputs.YOUTUBE_API_KEY }}
+    - name: Setup Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9.12'
+        architecture: 'x64'
+    - name: Get Python version
+      run: python -V
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+    ###- shell: bash
+    ###  id: setup
+    ###  run: |
+    ###    sudo apt update
+    ###    sudo apt install -y python3
+    ###    sudo apt upgrade
+    ###    sudo python3 -m pip install --upgrade requests
+    ###    
+    ###- shell: bash
+    ###  id: automation
+    ###  run: |
+    ###    python --version
+    ###    cd ${{ github.action_path }}
+    ###    sudo python3 -m pip install -r requirements.txt
+    ###    python3 rank.py ${{ inputs.YOUTUBE_API_KEY }}
 
