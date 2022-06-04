@@ -33,5 +33,11 @@ runs:
         cd ${{ github.action_path }}
         python -m pip install -r requirements.txt
         python rank.py ${{ inputs.YOUTUBE_API_KEY }}
-        ls
-        cat youtube_rank.md
+    - name: commit file
+      run: |　　# githubの設定
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          mv youtube_rank.md README.md 
+          git add README.md
+          git commit -m 'update README.md'
+          git push origin main
