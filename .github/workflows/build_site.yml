@@ -48,10 +48,10 @@ jobs:
       ##    sudo apt upgrade
       ##    sudo python3 -m pip install --upgrade requests
      ##
-      ##- shell: bash
-      ##  id: automation
-      ##  run: |
-      ##    python --version
+      - shell: bash
+        id: automation
+        run: |
+          python --version
       ##    echo ${{ github.action_path }}
       ##    #sudo python3 -m pip install -r requirements.txt
       ##    #python3 rank.py ${{ env.YOUTUBE_API_KEY }}
