@@ -31,8 +31,22 @@ jobs:
           TZ: 'Asia/Tokyo'
         run: echo "CURRENT_DATETIME:$(date +'%Y/%m/%d(%a) %H:%M:%S')"
 
-      - uses: yarakigit/youtube_ranking_build@main
-        if: ${{ env.YOUTUBE_API_KEY }} != null
-        with:
-          YOUTUBE_API_KEY: ${{ env.YOUTUBE_API_KEY }}
-
+      #- uses: yarakigit/youtube_ranking_build@main
+      #  if: ${{ env.YOUTUBE_API_KEY }} != null
+      #  with:
+      #    YOUTUBE_API_KEY: ${{ env.YOUTUBE_API_KEY }}
+      - shell: bash
+        id: setup
+        run: |
+          sudo apt update
+          sudo apt install -y python3
+          sudo apt upgrade
+          sudo python3 -m pip install --upgrade requests
+     
+      - shell: bash
+        id: automation
+        run: |
+          python --version
+          cd ${{ github.action_path }}
+          sudo python3 -m pip install -r requirements.txt
+          python3 rank.py ${{ env.YOUTUBE_API_KEY }}

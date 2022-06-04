@@ -1,24 +1,24 @@
-name: 'python-youtube-action'
-description: 'here is description'
-
-inputs:
-  YOUTUBE_API_KEY:
-    description: 'here is description'
-    required:    true
-
-runs:
-  using: 'composite'
-  steps:
-    - name: Setup Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.9'
-        architecture: 'x64'
-    - name: Get Python version
-      run: python -V
-    - name: Install dependencies
-      run: pip install -r requirements.txt
-    ###- shell: bash
+###name: 'python-youtube-action'
+###description: 'here is description'
+###
+###inputs:
+###  YOUTUBE_API_KEY:
+###    description: 'here is description'
+###    required:    true
+###
+###runs:
+###  using: 'composite'
+###  steps:
+###    - name: Setup Python
+###      uses: actions/setup-python@v2
+###      with:
+###        python-version: '3.9'
+###        architecture: 'x64'
+###    - name: Get Python version
+###      run: python -V
+###    - name: Install dependencies
+###      run: pip install -r requirements.txt
+###    ###- shell: bash
     ###  id: setup
     ###  run: |
     ###    sudo apt update
