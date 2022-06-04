@@ -12,7 +12,7 @@ RANK_NUM = 10
 SEARCH_TITLE = 'ポケモン'
 DAY_SPAN = 1
 PATH_W = 'youtube_rank.md'
-TIME＿DIFFERENCE = 9
+TIME＿DIFFERENCE = int(argv[2])
 ###########
 
 def main():
