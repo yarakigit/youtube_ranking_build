@@ -42,10 +42,10 @@ jobs:
           pip install pandas            
           pip install google-api-python-client
       - name: 'run python'
-        working-directory: scripts　# scriptsのファイルを指定
+        working-directory: 'scripts'
         run: |
           python rank.py ${{ env.YOUTUBE_API_KEY }} 9
-          #mv README.md ./../README.md　# README.mdを上書き
+          
     
       #- run: python my_script.py
       #- uses: yarakigit/youtube_ranking_build@main
