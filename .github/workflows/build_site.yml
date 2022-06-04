@@ -45,7 +45,15 @@ jobs:
         working-directory: 'scripts'
         run: |
           python rank.py ${{ env.YOUTUBE_API_KEY }} 9
-          
+          mv youtube_rank.md ./../README.md
+      - name: commit files
+        run: |　　# githubの設定
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git add README.md
+          git commit -m 'update README.md'
+          git push origin main
+
     
       #- run: python my_script.py
       #- uses: yarakigit/youtube_ranking_build@main
