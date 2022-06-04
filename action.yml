@@ -33,4 +33,4 @@ runs:
         cd ${{ github.action_path }}
         python -m pip install -r requirements.txt
         python rank.py ${{ inputs.YOUTUBE_API_KEY }}
-
+        ls
