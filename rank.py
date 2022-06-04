@@ -12,10 +12,11 @@ RANK_NUM = 10
 SEARCH_TITLE = 'ポケモン'
 DAY_SPAN = 1
 PATH_W = 'youtube_rank.md'
+TIME＿DIFFERENCE = 9
 ###########
 
 def main():
-    dt_now = datetime.datetime.now()
+    dt_now = datetime.datetime.now() + datetime.timedelta(hours=TIME_DIFFERENCE) 
     dt_now_after = dt_now - datetime.timedelta(days=DAY_SPAN)
     youtube = make_youtube_instance(YOUTUBE_API_KEY=YOUTUBE_API_KEY)
     response = search_youtube_keyword(
