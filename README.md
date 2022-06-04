@@ -1,6 +1,6 @@
 # ポケモン YouTube 再生回数 ランキング
 ---
-## 期間 : 2022年06月04日01時33分52秒 ~ 2022年06月05日01時33分52秒
+## 期間 : 2022年06月04日01時37分05秒 ~ 2022年06月05日01時37分05秒
 * [第1位 : 【ポケモン】チャンピオンロード行くぞ！！６匹と旅に出る初めてのポケットモンスター【リーフグリーン】#伊東ライフ](#第1位)
 * [第2位 : 【GOFest2022】スペシャルリサーチ内容判明！シェイミと色違いキバゴ狙いでGOフェスライブ！【ポケモンGO】](#第2位)
 * [第3位 : 【謎設定】もしもルギアが&quot;水タイプ“だったら強くなっていたのか？](#第3位)
@@ -42,14 +42,14 @@
 # 第5位
 - [Go Fest 2022 - Day 1 - Shiny Hunt Live - Pokemon GO](http://www.youtube.com/watch?v=V9Jy5IRHewo)
    - チャンネル名 : ProPlanty
-       - 再生数 : 52264回
+       - 再生数 : 52297回
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V9Jy5IRHewo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # 第6位
 - [あのカイロスさんと身長体重完全一致してしまったランクマッチ【ポケモン剣盾】【ゆっくり実況】](http://www.youtube.com/watch?v=8nfbE_noGAc)
    - チャンネル名 : レイえもん＠ゆっくり実況
-       - 再生数 : 59285回
+       - 再生数 : 59722回
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8nfbE_noGAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -63,14 +63,14 @@
 # 第8位
 - [【ポケモンユナイト】強いアマージョ強くしたらそりゃ強いんじゃないですかねえ！！【ゆっくり実況】](http://www.youtube.com/watch?v=9--hxqhTqnM)
    - チャンネル名 : Mochiチャンネル
-       - 再生数 : 43297回
+       - 再生数 : 43457回
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9--hxqhTqnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # 第9位
 - [アーニャポケモンが好き](http://www.youtube.com/watch?v=dPbSwEYVaMA)
    - チャンネル名 : りょさん
-       - 再生数 : 31852回
+       - 再生数 : 32113回
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dPbSwEYVaMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
