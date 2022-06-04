@@ -53,10 +53,3 @@ jobs:
           git add README.md
           git commit -m 'update README.md'
           git push origin main
-
-    
-      #- run: python my_script.py
-      #- uses: yarakigit/youtube_ranking_build@main
-      #  if: ${{ env.YOUTUBE_API_KEY }} != null
-      #  with:
-      #    YOUTUBE_API_KEY: ${{ env.YOUTUBE_API_KEY }} 9
