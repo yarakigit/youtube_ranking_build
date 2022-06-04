@@ -4,8 +4,10 @@ import datetime
 import pandas as pd
 import sys
 import os
+
+argv = sys.argv
 #####
-YOUTUBE_API_KEY = os.environ.get('YOUTUBE_API_KEY')
+YOUTUBE_API_KEY = argv[1]
 RANK_NUM = 10
 SEARCH_TITLE = 'ポケモン'
 DAY_SPAN = 1
