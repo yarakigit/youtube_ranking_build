@@ -29,7 +29,7 @@ jobs:
       - name: 'echo current datetime'
         env:
           TZ: 'Asia/Tokyo'
-        run: echo "CURRENT_DATETIME:$(date +'%Y/%m/%d(%a) %H:%M:%S')"
+        echo "CURRENT_DATETIME=$(date +'%Y/%m/%d(%a) %H:%M:%S')" >> $GITHUB_ENV
       
       - uses: actions/setup-python@v3
         with:
