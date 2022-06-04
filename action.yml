@@ -35,9 +35,9 @@ runs:
         python rank.py ${{ inputs.YOUTUBE_API_KEY }}
     - name: commit file
       run: |　　# githubの設定
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          mv youtube_rank.md README.md 
-          git add README.md
-          git commit -m 'update README.md'
-          git push origin main
+        git config --global user.name "${{ github.actor }}"
+        git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+        mv youtube_rank.md README.md 
+        git add README.md
+        git commit -m 'update README.md'
+        git push origin main
