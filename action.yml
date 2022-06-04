@@ -1,24 +1,24 @@
-###name: 'python-youtube-action'
-###description: 'here is description'
-###
-###inputs:
-###  YOUTUBE_API_KEY:
-###    description: 'here is description'
-###    required:    true
-###
-###runs:
-###  using: 'composite'
-###  steps:
-###    - name: Setup Python
-###      uses: actions/setup-python@v2
-###      with:
-###        python-version: '3.9'
-###        architecture: 'x64'
-###    - name: Get Python version
-###      run: python -V
-###    - name: Install dependencies
-###      run: pip install -r requirements.txt
-###    ###- shell: bash
+name: 'python-youtube-action'
+description: 'here is description'
+
+inputs:
+  YOUTUBE_API_KEY:
+    description: 'here is description'
+    required:    true
+
+runs:
+  using: 'composite'
+  steps:
+    ###- name: Setup Python
+    ###  uses: actions/setup-python@v2
+    ###  with:
+    ###    python-version: '3.9'
+    ###    architecture: 'x64'
+    ###- name: Get Python version
+    ###  run: python -V
+    ###- name: Install dependencies
+    ###  run: pip install -r requirements.txt
+    ###- shell: bash
     ###  id: setup
     ###  run: |
     ###    sudo apt update
@@ -26,11 +26,11 @@
     ###    sudo apt upgrade
     ###    sudo python3 -m pip install --upgrade requests
     ###    
-    ###- shell: bash
-    ###  id: automation
-    ###  run: |
-    ###    python --version
-    ###    cd ${{ github.action_path }}
-    ###    sudo python3 -m pip install -r requirements.txt
+    - shell: bash
+      id: automation
+      run: |
+        python --version
+        cd ${{ github.action_path }}
+        sudo python3 -m pip install -r requirements.txt
     ###    python3 rank.py ${{ inputs.YOUTUBE_API_KEY }}
 

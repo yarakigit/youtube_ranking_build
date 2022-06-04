@@ -36,10 +36,10 @@ jobs:
           python-version: '3.9.12' # Version range or exact version of a Python version to use, using SemVer's version range syntax
           architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
       #- run: python my_script.py
-      #- uses: yarakigit/youtube_ranking_build@main
-      #  if: ${{ env.YOUTUBE_API_KEY }} != null
-      #  with:
-      #    YOUTUBE_API_KEY: ${{ env.YOUTUBE_API_KEY }}
+      - uses: yarakigit/youtube_ranking_build@main
+        if: ${{ env.YOUTUBE_API_KEY }} != null
+        with:
+          YOUTUBE_API_KEY: ${{ env.YOUTUBE_API_KEY }}
       ##- shell: bash
       ##  id: setup
       ##  run: |
@@ -48,10 +48,10 @@ jobs:
       ##    sudo apt upgrade
       ##    sudo python3 -m pip install --upgrade requests
      ##
-      - shell: bash
-        id: automation
-        run: |
-          python --version
+      ##- shell: bash
+      ##  id: automation
+      ##  run: |
+      ##    python --version
       ##    echo ${{ github.action_path }}
       ##    #sudo python3 -m pip install -r requirements.txt
       ##    #python3 rank.py ${{ env.YOUTUBE_API_KEY }}
