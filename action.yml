@@ -20,6 +20,7 @@ runs:
     - shell: bash
       id: automation
       run: |
+        python --version
         cd ${{ github.action_path }}
         sudo python3 -m pip install -r requirements.txt
         python3 rank.py ${{ inputs.YOUTUBE_API_KEY }}
