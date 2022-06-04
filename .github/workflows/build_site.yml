@@ -24,29 +24,34 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: 'echo current datetime'
         env:
           TZ: 'Asia/Tokyo'
         run: echo "CURRENT_DATETIME:$(date +'%Y/%m/%d(%a) %H:%M:%S')"
-
+      
+      - uses: actions/setup-python@v3
+        with:
+          python-version: '3.9.12' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+          architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
+      #- run: python my_script.py
       #- uses: yarakigit/youtube_ranking_build@main
       #  if: ${{ env.YOUTUBE_API_KEY }} != null
       #  with:
       #    YOUTUBE_API_KEY: ${{ env.YOUTUBE_API_KEY }}
-      - shell: bash
-        id: setup
-        run: |
-          sudo apt update
-          sudo apt install -y python3
-          sudo apt upgrade
-          sudo python3 -m pip install --upgrade requests
-     
-      - shell: bash
-        id: automation
-        run: |
-          python --version
-          echo ${{ github.action_path }}
-          #sudo python3 -m pip install -r requirements.txt
-          #python3 rank.py ${{ env.YOUTUBE_API_KEY }}
+      ##- shell: bash
+      ##  id: setup
+      ##  run: |
+      ##    sudo apt update
+      ##    sudo apt install -y python3
+      ##    sudo apt upgrade
+      ##    sudo python3 -m pip install --upgrade requests
+     ##
+      ##- shell: bash
+      ##  id: automation
+      ##  run: |
+      ##    python --version
+      ##    echo ${{ github.action_path }}
+      ##    #sudo python3 -m pip install -r requirements.txt
+      ##    #python3 rank.py ${{ env.YOUTUBE_API_KEY }}
