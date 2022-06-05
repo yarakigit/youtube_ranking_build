@@ -42,15 +42,23 @@ jobs:
           pip install pandas            
           pip install google-api-python-client
           pip install pelican
+          pip install Markdown
+          pip install ghp-import
       - name: 'run python'
         working-directory: 'scripts'
         run: |
           python rank.py ${{ env.YOUTUBE_API_KEY }} 9
-          #mv youtube_rank.md ./../README.md
           sudo bash mv_file.sh
           cd ./build_site
-          make html
-          ls content
+          make publish
+      
+      - name: 'Deploy To Branch'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_branch: gh-pages
+          publish_dir: ./output
+          personal_token: ${{ secrets.PERSONAL_TOKEN }} 
+          
       - name: 'commit files'
         run: |
           echo none 
