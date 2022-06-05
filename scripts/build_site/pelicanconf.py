@@ -1,3 +1,6 @@
+EN_GITHUB_PAGES = True
+if EN_GITHUB_PAGES:
+    root_dir = '/youtube_ranking_build'
 AUTHOR = 'youtube ranking'
 SITEURL = 'https://yarakigit.github.io/youtube_ranking_build/'
 SITENAME = 'youtube ranking'
@@ -49,11 +52,18 @@ HOME_HIDE_TAGS = True
 #    ("rss", "/blog/feeds/all.atom.xml"),
 #)
 
-MENUITEMS = (
-    ("Archives", "/archives.html"),
-    ("Categories", "/categories.html"),
-    ("Tags", "/tags.html"),
-)
+if EN_GITHUB_PAGES:
+    MENUITEMS = (
+        ("Archives", root_dir+"/archives.html"),
+        ("Categories", root_dir+"/categories.html"),
+        ("Tags", root_dir+"/tags.html"),
+    )
+else:
+    MENUITEMS = (
+        ("Archives", "/archives.html"),
+        ("Categories", "/categories.html"),
+        ("Tags", "/tags.html"),
+    )
 
 #CC_LICENSE = {
 #    "name": "Creative Commons Attribution-ShareAlike 4.0 International License",
