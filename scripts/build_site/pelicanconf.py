@@ -51,5 +51,7 @@ MARKDOWN = {
 }
 
 MAIN_MENU = True
-DISPLAY_PAGES_ON_MENU = True
-DISPLAY_CATEGORIES_ON_MENU = True
+MENUITEMS = (
+    ("Archives", "/archives.html"),
+)
+
