@@ -2,7 +2,7 @@ EN_GITHUB_PAGES = True
 if EN_GITHUB_PAGES:
     root_dir = '/youtube_ranking_build'
 AUTHOR = 'youtube ranking'
-SITEURL = 'https://yarakigit.github.io/youtube_ranking_build/'
+#SITEURL = 'https://yarakigit.github.io/youtube_ranking_build/'
 SITENAME = 'youtube ranking'
 SITETITLE = "youtube ranking"
 #SITESUBTITLE = "The minimalist Pelican theme"
