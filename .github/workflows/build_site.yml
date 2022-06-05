@@ -51,9 +51,7 @@ jobs:
           sudo bash mv_file.sh
           cd ./build_site
           make publish
-          ls output
-          pwd
-
+          
       - name: 'Deploy To Branch'
         #working-directory: 'scripts/build_site'
         uses: peaceiris/actions-gh-pages@v3
@@ -63,10 +61,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
         
       - name: 'commit files'
+        working-directory: 'scripts/build_site'
         run: |
-          echo none 
+          pwd
+          ls output
           #git config --global user.name "${{ github.actor }}"
           #git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          #git add README.md
-          #git commit -m 'update README.md'
+          #git add output
+          #git commit -m 'Update daily markdown'
           #git push origin main
