@@ -41,15 +41,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install pandas            
           pip install google-api-python-client
+          pip install pelican
       - name: 'run python'
         working-directory: 'scripts'
         run: |
           python rank.py ${{ env.YOUTUBE_API_KEY }} 9
-          mv youtube_rank.md ./../README.md
+          #mv youtube_rank.md ./../README.md
+          sudo bash mv_file.sh
       - name: 'commit files'
         run: |
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git add README.md
-          git commit -m 'update README.md'
-          git push origin main
+          echo none 
+          #git config --global user.name "${{ github.actor }}"
+          #git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          #git add README.md
+          #git commit -m 'update README.md'
+          #git push origin main
