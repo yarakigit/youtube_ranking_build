@@ -50,6 +50,7 @@ jobs:
           sudo bash mv_file.sh
           cd ./build_site
           make html
+          ls content
       - name: 'commit files'
         run: |
           echo none 
