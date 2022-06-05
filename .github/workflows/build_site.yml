@@ -51,6 +51,7 @@ jobs:
           sudo bash mv_file.sh
           cd ./build_site
           make publish
+          ls output
       
       - name: 'Deploy To Branch'
         uses: peaceiris/actions-gh-pages@v3
