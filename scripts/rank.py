@@ -1,3 +1,4 @@
+from unicodedata import category
 from urllib import response
 from apiclient.discovery import build
 import datetime
@@ -34,7 +35,16 @@ def main():
     ###df = pd.read_pickle('youtube_rank.pkl')
     
     with open(PATH_W, mode='w') as f:
+        make_pelican_title(f, SEARCH_TITLE, dt_now)
         write_file(f,df, SEARCH_TITLE, dt_now, dt_now_after)
+
+def make_pelican_title(f, title, dt_now):
+    f.write('Title: '+dt_now.strftime('%Y/%m/%d')+' '+title+' YouTube 再生回数 ランキング\n')
+    f.write('Date: '+dt_now.strftime('%Y/%m/%d')+'\n')
+    f.write('Category: '+title+'\n')
+    f.write('Tags: '+title+'\n')
+    f.write('Authors: '+'youtube ranking'+'\n')
+    f.write('Summary: '+title+'に関する動画のランキング\n')
 
 def make_youtube_instance(YOUTUBE_API_KEY):
     return build('youtube', 'v3', developerKey=YOUTUBE_API_KEY)
