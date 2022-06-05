@@ -1,6 +1,6 @@
 AUTHOR = 'youtube ranking'
 SITENAME = 'youtube ranking'
-#SITEURL = ''
+SITEURL = 'https://yarakigit.github.io/youtube_ranking_build/'
 
 PATH = 'content'
 
@@ -34,4 +34,18 @@ THEME = './flex'
 
 DATE_FORMATS = {
     'ja': '%Y-%m-%d',
+}
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.fenced_code': {},
+        'markdown.extensions.nl2br': {},
+        'markdown.extensions.toc': {},
+        'markdown.extensions.admonition': {},
+        'mdx_linkify.mdx_linkify': {},
+    },
+    'output_format': 'html5',
 }

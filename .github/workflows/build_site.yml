@@ -45,6 +45,7 @@ jobs:
           pip install pelican
           pip install Markdown
           pip install ghp-import
+          pip install mdx_linkify
       - name: 'run python'
         working-directory: 'scripts'
         run: |
