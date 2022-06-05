@@ -116,7 +116,8 @@ def write_file(f,df, title, dt_now, dt_now_after):
         title = df.at[i,'title']
         #f.write('* ['+'第'+str(i+1)+'位 : '+title+'](#第'+str(i+1)+'位)\n')
         movie_URL = df.at[i,'movie_URL']
-        f.write('* ['+'第'+str(i+1)+'位 : '+title+']('+movie_URL+')\n')
+        #f.write('* ['+'第'+str(i+1)+'位 : '+title+']('+movie_URL+')\n')
+        f.write('* ['+'第'+str(i+1)+'位 : '+title+']('+'#第'+str(i+1)+'位)\n')
 
     for i in range(len(df.index)):
         movie_URL = df.at[i,'movie_URL']
