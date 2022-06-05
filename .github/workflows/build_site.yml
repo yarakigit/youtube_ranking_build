@@ -58,8 +58,7 @@ jobs:
         run: |
           sudo bash mv_file.sh
           make publish
-          cp output/index.html output/404.html
-
+          
       - name: 'Deploy To Branch'
         #working-directory: 'scripts/build_site'
         uses: peaceiris/actions-gh-pages@v3
