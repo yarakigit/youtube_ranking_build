@@ -58,6 +58,7 @@ jobs:
         run: |
           sudo bash mv_file.sh
           make publish
+          cp output/index.html output/404.html
 
       - name: 'Deploy To Branch'
         #working-directory: 'scripts/build_site'
@@ -72,7 +73,6 @@ jobs:
         env:
           TZ: 'Asia/Tokyo'
         run: |
-          ls content
           #git config --global user.name "${{ github.actor }}"
           #git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           #git add output
