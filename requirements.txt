@@ -1,0 +1,6 @@
+pandas            
+google-api-python-client
+pelican
+Markdown
+ghp-import
+mdx_linkify
