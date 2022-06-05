@@ -19,4 +19,6 @@ DELETE_OUTPUT_DIRECTORY = True
 
 #DISQUS_SITENAME = ""
 GOOGLE_ANALYTICS = str(os.environ.get('GOOGLE_ANALYTICS_ID'))
-print(GOOGLE_ANALYTICS)#temp
+
+print("here"+GOOGLE_ANALYTICS)#temp
+print("here")
