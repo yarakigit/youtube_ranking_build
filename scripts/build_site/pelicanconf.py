@@ -52,6 +52,6 @@ MARKDOWN = {
 
 MAIN_MENU = True
 MENUITEMS = (
-    ("Archives", "/archives.html"),
+    ("Archives", "./output/archives.html"),
 )
 
