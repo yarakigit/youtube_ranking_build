@@ -1,83 +1,89 @@
+Title: 2022/06/05 ポケモン YouTube 再生回数 ランキング
+Date: 2022/06/05
+Category: ポケモン
+Tags: ポケモン
+Authors: youtube ranking
+Summary: ポケモンに関する動画のランキング
 # ポケモン YouTube 再生回数 ランキング
 ---
-## 期間 : 2022年06月04日07時13分08秒 ~ 2022年06月05日07時13分08秒
-* [第1位 : 【ポケモンカード】あらゆる手段で無理やりジャンケンに勝利したら、100％負けない無敵のバリヤードが誕生したｗｗｗ](#第1位)
-* [第2位 : 【ポケモン】チャンピオンロード行くぞ！！６匹と旅に出る初めてのポケットモンスター【リーフグリーン】#伊東ライフ](#第2位)
-* [第3位 : もしもポケモン達がSNSを始めたらこうなるwww #short #shorts](#第3位)
-* [第4位 : 【謎設定】もしもルギアが&quot;水タイプ“だったら強くなっていたのか？](#第4位)
-* [第5位 : Go Fest 2022 - Day 1 - Shiny Hunt Live - Pokemon GO](#第5位)
-* [第6位 : 【金ネジキ】Nリーグ2022シーズン～第5節～前編～](#第6位)
-* [第7位 : 【ポケモンユナイト】強いアマージョ強くしたらそりゃ強いんじゃないですかねえ！！【ゆっくり実況】](#第7位)
-* [第8位 : あまりに設定が凝りすぎて逆に残酷な結果を迎えたポケモンまとめ](#第8位)
-* [第9位 : あのカイロスさんと身長体重完全一致してしまったランクマッチ【ポケモン剣盾】【ゆっくり実況】](#第9位)
-* [第10位 : 【真相は】オヤブンとか言う”地味に謎を残して”終わった存在を深掘り解説【闇の中】【レジェンズアルセウス/ポケモンSV】](#第10位)
+## 期間 : 2022年06月04日14時27分00秒 ~ 2022年06月05日14時27分00秒
+* [第1位 : 【金ネジキ】Nリーグ2022シーズン～第5節～前編～](#第1位)
+* [第2位 : 【GOFest2022】謎のウルトラ調査隊と新伝説が襲来！ウルトラビーストの全貌とウツロイドの強さ解説【ポケモンGO】](#第2位)
+* [第3位 : 【ポケモンGO速報】今からウルトラビースト襲来！2日目の狙い目はコレ＆対策ポケモン【GOフェス最新情報】](#第3位)
+* [第4位 : 【公式映像】ここにいたの...？新たに存在する2匹の内定ポケモンの可能性【スカーレット・バイオレット】](#第4位)
+* [第5位 : 【ポケモンGO 速報】緊急！〇〇消滅の注意！？全て判明したスペシャルリサーチの内容は・・？【GOフェス・ウツロイド・ウルトラビースト・色違いポケモン・Nihilego】](#第5位)
+* [第6位 : シェイミと色違いキバゴを求めて！！2年ぶりの屋外GOFest!!まさかの色違いと再会が！？1日目にガチった結果！！【ポケモンGO】](#第6位)
+* [第7位 : 【ポケモンユナイト】完全ソロ1965～ 2000までいくっちゅーに](#第7位)
+* [第8位 : 【ポケモン剣盾】約300日ぶりとなる冠ルールの大会参加！豪華優勝賞品を俺が奪ってやるよｗｗｗ【#バトルマスター練習会】](#第8位)
+* [第9位 : 【ポケモンHGSS】第２４回金ネジキ討伐【Vtuber】](#第9位)
+* [第10位 : 【ポケモンユナイト】強化されたヤドランのねっとうが今最高にアツいと話題に！？熱湯だけに！！【ゆっくり実況】](#第10位)
 # 第1位
-- [【ポケモンカード】あらゆる手段で無理やりジャンケンに勝利したら、100％負けない無敵のバリヤードが誕生したｗｗｗ](http://www.youtube.com/watch?v=BIl4_sr0wQY)
-   - チャンネル名 : 愛の戦士チャンネル
-       - 再生数 : 123126回
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BIl4_sr0wQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-# 第2位
-- [【ポケモン】チャンピオンロード行くぞ！！６匹と旅に出る初めてのポケットモンスター【リーフグリーン】#伊東ライフ](http://www.youtube.com/watch?v=-OBV_DyFyzg)
-   - チャンネル名 : 伊東ライフ
-       - 再生数 : 95707回
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-OBV_DyFyzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-# 第3位
-- [もしもポケモン達がSNSを始めたらこうなるwww #short #shorts](http://www.youtube.com/watch?v=Qw9b6KyMvMQ)
-   - チャンネル名 : キムテス
-       - 再生数 : 75146回
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qw9b6KyMvMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-# 第4位
-- [【謎設定】もしもルギアが&quot;水タイプ“だったら強くなっていたのか？](http://www.youtube.com/watch?v=LJB-JUWSaYA)
-   - チャンネル名 : ポケモンソルジャー【ポケソル】
-       - 再生数 : 95657回
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LJB-JUWSaYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-# 第5位
-- [Go Fest 2022 - Day 1 - Shiny Hunt Live - Pokemon GO](http://www.youtube.com/watch?v=V9Jy5IRHewo)
-   - チャンネル名 : ProPlanty
-       - 再生数 : 53384回
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V9Jy5IRHewo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-# 第6位
 - [【金ネジキ】Nリーグ2022シーズン～第5節～前編～](http://www.youtube.com/watch?v=BMsospNkQds)
    - チャンネル名 : Kトのポケモン廃人ロード
-       - 再生数 : 52687回
+       - 再生数 : 56272回
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BMsospNkQds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# 第7位
-- [【ポケモンユナイト】強いアマージョ強くしたらそりゃ強いんじゃないですかねえ！！【ゆっくり実況】](http://www.youtube.com/watch?v=9--hxqhTqnM)
-   - チャンネル名 : Mochiチャンネル
-       - 再生数 : 48402回
+# 第2位
+- [【GOFest2022】謎のウルトラ調査隊と新伝説が襲来！ウルトラビーストの全貌とウツロイドの強さ解説【ポケモンGO】](http://www.youtube.com/watch?v=iUhSlopXcII)
+   - チャンネル名 : ターシーさおぴかチャンネル
+       - 再生数 : 30304回
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9--hxqhTqnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iUhSlopXcII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# 第3位
+- [【ポケモンGO速報】今からウルトラビースト襲来！2日目の狙い目はコレ＆対策ポケモン【GOフェス最新情報】](http://www.youtube.com/watch?v=qW35Hxd95Ng)
+   - チャンネル名 : エンジョイまきやん38yotti
+       - 再生数 : 31549回
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qW35Hxd95Ng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# 第4位
+- [【公式映像】ここにいたの...？新たに存在する2匹の内定ポケモンの可能性【スカーレット・バイオレット】](http://www.youtube.com/watch?v=-FCYT67G1FI)
+   - チャンネル名 : ポケモン速報
+       - 再生数 : 25680回
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-FCYT67G1FI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# 第5位
+- [【ポケモンGO 速報】緊急！〇〇消滅の注意！？全て判明したスペシャルリサーチの内容は・・？【GOフェス・ウツロイド・ウルトラビースト・色違いポケモン・Nihilego】](http://www.youtube.com/watch?v=rlZ-IOPAW1g)
+   - チャンネル名 : ONEPOKE.
+       - 再生数 : 19585回
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rlZ-IOPAW1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# 第6位
+- [シェイミと色違いキバゴを求めて！！2年ぶりの屋外GOFest!!まさかの色違いと再会が！？1日目にガチった結果！！【ポケモンGO】](http://www.youtube.com/watch?v=ZbFW4Y4pJS4)
+   - チャンネル名 : YuriGames
+       - 再生数 : 18094回
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZbFW4Y4pJS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# 第7位
+- [【ポケモンユナイト】完全ソロ1965～ 2000までいくっちゅーに](http://www.youtube.com/watch?v=Wr2yboXs7C8)
+   - チャンネル名 : ムクタリアン
+       - 再生数 : 14779回
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Wr2yboXs7C8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # 第8位
-- [あまりに設定が凝りすぎて逆に残酷な結果を迎えたポケモンまとめ](http://www.youtube.com/watch?v=StnEjExSduA)
-   - チャンネル名 : ポケポケ！ゆっくりポケモン情報局
-       - 再生数 : 45398回
+- [【ポケモン剣盾】約300日ぶりとなる冠ルールの大会参加！豪華優勝賞品を俺が奪ってやるよｗｗｗ【#バトルマスター練習会】](http://www.youtube.com/watch?v=Ytv91T6EL3U)
+   - チャンネル名 : あゆみんch
+       - 再生数 : 11658回
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/StnEjExSduA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ytv91T6EL3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # 第9位
-- [あのカイロスさんと身長体重完全一致してしまったランクマッチ【ポケモン剣盾】【ゆっくり実況】](http://www.youtube.com/watch?v=8nfbE_noGAc)
-   - チャンネル名 : レイえもん＠ゆっくり実況
-       - 再生数 : 81693回
+- [【ポケモンHGSS】第２４回金ネジキ討伐【Vtuber】](http://www.youtube.com/watch?v=hDqjYvV8rGQ)
+   - チャンネル名 : シラクサアーカイブス
+       - 再生数 : 10565回
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8nfbE_noGAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hDqjYvV8rGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # 第10位
-- [【真相は】オヤブンとか言う”地味に謎を残して”終わった存在を深掘り解説【闇の中】【レジェンズアルセウス/ポケモンSV】](http://www.youtube.com/watch?v=R2zW6Ertb3Q)
-   - チャンネル名 : さおうさん【調べたことまとめる系】
-       - 再生数 : 33000回
+- [【ポケモンユナイト】強化されたヤドランのねっとうが今最高にアツいと話題に！？熱湯だけに！！【ゆっくり実況】](http://www.youtube.com/watch?v=Y3y0D_wBn_I)
+   - チャンネル名 : みあ
+       - 再生数 : 7694回
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R2zW6Ertb3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y3y0D_wBn_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
