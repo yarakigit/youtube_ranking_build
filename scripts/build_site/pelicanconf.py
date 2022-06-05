@@ -1,12 +1,37 @@
 AUTHOR = 'youtube ranking'
-SITENAME = 'youtube ranking'
 SITEURL = 'https://yarakigit.github.io/youtube_ranking_build/'
+SITENAME = 'youtube ranking'
+SITETITLE = "youtube ranking"
+#SITESUBTITLE = "The minimalist Pelican theme"
+#SITEDESCRIPTION = "Flex - The minimalist Pelican theme."
+# SITELOGO = ''
+# FAVICON = '/images/favicon.ico'
+BROWSER_COLOR = "#333333"
+PYGMENTS_STYLE = "monokai"
+ROBOTS = "index, follow"
 
+# my setting
+THEME = "./flex"
 PATH = 'content'
-
+#OUTPUT_PATH = "blog/"
 TIMEZONE = 'Asia/Tokyo'
 
-DEFAULT_LANG = 'ja'
+DISABLE_URL_HASH = True
+
+# PLUGIN_PATHS = ['pelican-plugins']
+
+# PLUGINS = ['i18n_subsites']
+
+# JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+
+#I18N_TEMPLATES_LANG = "en"
+DEFAULT_LANG = "ja"
+#OG_LOCALE = "en_US"
+#LOCALE = "en_US"
+
+DATE_FORMATS = {
+    'ja': '%Y-%m-%d',
+}
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -15,26 +40,49 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-#LINKS = (('Pelican', 'https://getpelican.com/'),
-#         ('Python.org', 'https://www.python.org/'),
-#         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),)
+USE_FOLDER_AS_CATEGORY = False
+MAIN_MENU = True
+HOME_HIDE_TAGS = True
 
-# Social widget
-#SOCIAL = (('You can add links in your config file', '#'),
-#          ('Another social link', '#'),)
+#SOCIAL = (
+#    ("github", "https://github.com/alexandrevicenzi/Flex"),
+#    ("rss", "/blog/feeds/all.atom.xml"),
+#)
 
+MENUITEMS = (
+    ("Archives", "/archives.html"),
+    ("Categories", "/categories.html"),
+    ("Tags", "/tags.html"),
+)
+
+#CC_LICENSE = {
+#    "name": "Creative Commons Attribution-ShareAlike 4.0 International License",
+#    "version": "4.0",
+#    "slug": "by-sa",
+#    "icon": True,
+#    "language": "en_US",
+#}
+
+#COPYRIGHT_YEAR = datetime.now().year
 DEFAULT_PAGINATION = 7
+
+#DISQUS_SITENAME = "flex-pelican"
+#ADD_THIS_ID = "ra-55adbb025d4f7e55"
+
+#STATIC_PATHS = ["images", "extra/ads.txt", "extra/CNAME"]
+
+#EXTRA_PATH_METADATA = {
+#    "extra/ads.txt": {"path": "ads.txt"},
+#    "extra/CNAME": {"path": "CNAME"},
+#}
+
+THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
+THEME_COLOR_ENABLE_USER_OVERRIDE = True
+
+USE_LESS = True
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-
-# my setting
-THEME = './flex'
-
-DATE_FORMATS = {
-    'ja': '%Y-%m-%d',
-}
 
 MARKDOWN = {
     'extension_configs': {
@@ -49,5 +97,3 @@ MARKDOWN = {
     },
     'output_format': 'html5',
 }
-
-MAIN_MENU = True
