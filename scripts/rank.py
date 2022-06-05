@@ -39,8 +39,8 @@ def main():
         write_file(f,df, SEARCH_TITLE, dt_now, dt_now_after)
 
 def make_pelican_title(f, title, dt_now):
-    f.write('Title: '+dt_now.strftime('%Y/%m/%d %H:%M')+' '+title+' YouTube デイリーランキング\n')
-    f.write('Date: '+dt_now.strftime('%Y/%m/%d')+'\n')
+    f.write('Title: '+dt_now.strftime('%Y/%m/%d')+' '+title+' YouTube デイリーランキング\n')
+    f.write('Date: '+dt_now.strftime('%Y/%m/%d %H:%M')+'\n')
     f.write('Category: '+title+'\n')
     f.write('Tags: '+title+'\n')
     f.write('Authors: '+'youtube ranking'+'\n')
