@@ -49,3 +49,5 @@ MARKDOWN = {
     },
     'output_format': 'html5',
 }
+
+MAIN_MENU = True
