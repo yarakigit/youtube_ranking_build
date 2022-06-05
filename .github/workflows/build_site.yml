@@ -56,7 +56,7 @@ jobs:
         env:
           TZ: 'Asia/Tokyo'
         run: |
-          sudo bash ../mv_file.sh
+          sudo bash mv_file.sh
           make publish
 
       - name: 'Deploy To Branch'
