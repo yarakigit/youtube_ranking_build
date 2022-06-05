@@ -48,6 +48,8 @@ jobs:
           python rank.py ${{ env.YOUTUBE_API_KEY }} 9
           #mv youtube_rank.md ./../README.md
           sudo bash mv_file.sh
+          cd ./build_site
+          make html
       - name: 'commit files'
         run: |
           echo none 
