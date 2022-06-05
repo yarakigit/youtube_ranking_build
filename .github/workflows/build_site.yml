@@ -18,7 +18,7 @@ jobs:
   build:
     env:
       YOUTUBE_API_KEY: ${{secrets.YOUTUBE_API_KEY}}
-      GOOGLE_ANALYTICS_ID: ${{secret.GOOGLE_ANALYTICS_ID}}
+      GOOGLE_ANALYTICS_ID: ${{secrets.GOOGLE_ANALYTICS_ID}}
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
