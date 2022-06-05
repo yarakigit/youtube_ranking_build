@@ -39,12 +39,12 @@ def main():
         write_file(f,df, SEARCH_TITLE, dt_now, dt_now_after)
 
 def make_pelican_title(f, title, dt_now):
-    f.write('Title: '+dt_now.strftime('%Y/%m/%d')+' '+title+' YouTube 再生回数 ランキング\n')
+    f.write('Title: '+dt_now.strftime('%Y/%m/%d')+' '+title+' YouTube デイリーランキング\n')
     f.write('Date: '+dt_now.strftime('%Y/%m/%d')+'\n')
     f.write('Category: '+title+'\n')
     f.write('Tags: '+title+'\n')
     f.write('Authors: '+'youtube ranking'+'\n')
-    f.write('Summary: '+title+'に関する動画のランキング\n')
+    f.write('Summary: '+title+'に関するYouTubeのデイリーランキング（自動更新）\n')
 
 def make_youtube_instance(YOUTUBE_API_KEY):
     return build('youtube', 'v3', developerKey=YOUTUBE_API_KEY)
@@ -114,7 +114,9 @@ def write_file(f,df, title, dt_now, dt_now_after):
     f.write('---\n## 期間 : '+dt_now_after.strftime('%Y年%m月%d日%H時%M分%S秒')+' ~ '+dt_now.strftime('%Y年%m月%d日%H時%M分%S秒')+'\n')
     for i in range(len(df.index)):
         title = df.at[i,'title']
-        f.write('* ['+'第'+str(i+1)+'位 : '+title+'](#第'+str(i+1)+'位)\n')
+        #f.write('* ['+'第'+str(i+1)+'位 : '+title+'](#第'+str(i+1)+'位)\n')
+        movie_URL = df.at[i,'movie_URL']
+        f.write('* ['+'第'+str(i+1)+'位 : '+title+']('+movie_URL+')\n')
 
     for i in range(len(df.index)):
         movie_URL = df.at[i,'movie_URL']
