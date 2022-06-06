@@ -135,7 +135,15 @@
   {% endblock %}
 
   <title>{{ SITENAME }}{% block title %}{% endblock %}</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QWEFSCY7QB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'G-QWEFSCY7QB');
+  </script>
   {% if GOOGLE_ADSENSE and GOOGLE_ADSENSE.page_level_ads %}
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
