@@ -75,8 +75,8 @@ jobs:
           TZ: 'Asia/Tokyo'
         run: |
           ls ./content/article
-          #git config --global user.name "${{ github.actor }}"
-          #git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          #git add /content/article/*
-          #git commit -m 'Update daily markdown'
-          #git push origin main
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git add ./content/article
+          git commit -m 'Update daily markdown'
+          git push origin main
